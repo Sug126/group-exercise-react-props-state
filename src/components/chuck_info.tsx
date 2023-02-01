@@ -1,6 +1,6 @@
-interface ChuckInfoProps{
+interface ChuckInfoProps {
 	whalesSaved: number,
-	roundHouseKicks: number
+	roundHouseKicks: number;
 }
 
 const ChuckInfo: React.FC<ChuckInfoProps> = ({whalesSaved, roundHouseKicks}) => {
